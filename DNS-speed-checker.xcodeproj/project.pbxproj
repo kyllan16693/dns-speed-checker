@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA68353C2BE81C5500A89898 /* DNS_speed_checkerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA68353B2BE81C5500A89898 /* DNS_speed_checkerApp.swift */; };
+		BA68353E2BE81C5500A89898 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA68353D2BE81C5500A89898 /* ContentView.swift */; };
+		BA6835A12BE81C5500A89898 /* DNSResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6835A02BE81C5500A89898 /* DNSResolver.swift */; };
+		BA6835B12BE81C5500A89898 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6835B02BE81C5500A89898 /* Persistence.swift */; };
+		BA6835402BE81C5600A89898 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA68353F2BE81C5600A89898 /* Assets.xcassets */; };
+		BA6835442BE81C5600A89898 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA6835432BE81C5600A89898 /* Preview Assets.xcassets */; };
+		BA68354E2BE81C5600A89898 /* DNS_speed_checkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA68354D2BE81C5600A89898 /* DNS_speed_checkerTests.swift */; };
+		BA6835582BE81C5600A89898 /* DNS_speed_checkerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6835572BE81C5600A89898 /* DNS_speed_checkerUITests.swift */; };
+		BA68355A2BE81C5600A89898 /* DNS_speed_checkerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6835592BE81C5600A89898 /* DNS_speed_checkerUITestsLaunchTests.swift */; };
+		BA6835682BEC2CC200A89898 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BA6835672BEC2CC200A89898 /* Credits.rtf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA68354A2BE81C5600A89898 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA6835302BE81C5500A89898 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA6835372BE81C5500A89898;
+			remoteInfo = "DNS-speed-checker";
+		};
+		BA6835542BE81C5600A89898 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA6835302BE81C5500A89898 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA6835372BE81C5500A89898;
+			remoteInfo = "DNS-speed-checker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA6835382BE81C5500A89898 /* DNS-speed-checker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DNS-speed-checker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA68353B2BE81C5500A89898 /* DNS_speed_checkerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNS_speed_checkerApp.swift; sourceTree = "<group>"; };
+		BA68353D2BE81C5500A89898 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BA6835A02BE81C5500A89898 /* DNSResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNSResolver.swift; sourceTree = "<group>"; };
+		BA6835B02BE81C5500A89898 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		BA68353F2BE81C5600A89898 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA6835412BE81C5600A89898 /* DNS_speed_checker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DNS_speed_checker.entitlements; sourceTree = "<group>"; };
+		BA6835432BE81C5600A89898 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA6835492BE81C5600A89898 /* DNS-speed-checkerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DNS-speed-checkerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA68354D2BE81C5600A89898 /* DNS_speed_checkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNS_speed_checkerTests.swift; sourceTree = "<group>"; };
+		BA6835532BE81C5600A89898 /* DNS-speed-checkerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DNS-speed-checkerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6835572BE81C5600A89898 /* DNS_speed_checkerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNS_speed_checkerUITests.swift; sourceTree = "<group>"; };
+		BA6835592BE81C5600A89898 /* DNS_speed_checkerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNS_speed_checkerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA6835662BE862CE00A89898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BA6835672BEC2CC200A89898 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA6835352BE81C5500A89898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6835462BE81C5600A89898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6835502BE81C5600A89898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA68352F2BE81C5500A89898 = {
+			isa = PBXGroup;
+			children = (
+				BA68353A2BE81C5500A89898 /* DNS-speed-checker */,
+				BA68354C2BE81C5600A89898 /* DNS-speed-checkerTests */,
+				BA6835562BE81C5600A89898 /* DNS-speed-checkerUITests */,
+				BA6835392BE81C5500A89898 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA6835392BE81C5500A89898 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA6835382BE81C5500A89898 /* DNS-speed-checker.app */,
+				BA6835492BE81C5600A89898 /* DNS-speed-checkerTests.xctest */,
+				BA6835532BE81C5600A89898 /* DNS-speed-checkerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA68353A2BE81C5500A89898 /* DNS-speed-checker */ = {
+			isa = PBXGroup;
+			children = (
+				BA6835662BE862CE00A89898 /* Info.plist */,
+				BA68353B2BE81C5500A89898 /* DNS_speed_checkerApp.swift */,
+				BA68353D2BE81C5500A89898 /* ContentView.swift */,
+				BA6835A02BE81C5500A89898 /* DNSResolver.swift */,
+				BA6835B02BE81C5500A89898 /* Persistence.swift */,
+				BA68353F2BE81C5600A89898 /* Assets.xcassets */,
+				BA6835412BE81C5600A89898 /* DNS_speed_checker.entitlements */,
+				BA6835422BE81C5600A89898 /* Preview Content */,
+				BA6835672BEC2CC200A89898 /* Credits.rtf */,
+			);
+			path = "DNS-speed-checker";
+			sourceTree = "<group>";
+		};
+		BA6835422BE81C5600A89898 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BA6835432BE81C5600A89898 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA68354C2BE81C5600A89898 /* DNS-speed-checkerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA68354D2BE81C5600A89898 /* DNS_speed_checkerTests.swift */,
+			);
+			path = "DNS-speed-checkerTests";
+			sourceTree = "<group>";
+		};
+		BA6835562BE81C5600A89898 /* DNS-speed-checkerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA6835572BE81C5600A89898 /* DNS_speed_checkerUITests.swift */,
+				BA6835592BE81C5600A89898 /* DNS_speed_checkerUITestsLaunchTests.swift */,
+			);
+			path = "DNS-speed-checkerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA6835372BE81C5500A89898 /* DNS-speed-checker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA68355D2BE81C5600A89898 /* Build configuration list for PBXNativeTarget "DNS-speed-checker" */;
+			buildPhases = (
+				BA6835342BE81C5500A89898 /* Sources */,
+				BA6835352BE81C5500A89898 /* Frameworks */,
+				BA6835362BE81C5500A89898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DNS-speed-checker";
+			productName = "DNS-speed-checker";
+			productReference = BA6835382BE81C5500A89898 /* DNS-speed-checker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA6835482BE81C5600A89898 /* DNS-speed-checkerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA6835602BE81C5600A89898 /* Build configuration list for PBXNativeTarget "DNS-speed-checkerTests" */;
+			buildPhases = (
+				BA6835452BE81C5600A89898 /* Sources */,
+				BA6835462BE81C5600A89898 /* Frameworks */,
+				BA6835472BE81C5600A89898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA68354B2BE81C5600A89898 /* PBXTargetDependency */,
+			);
+			name = "DNS-speed-checkerTests";
+			productName = "DNS-speed-checkerTests";
+			productReference = BA6835492BE81C5600A89898 /* DNS-speed-checkerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA6835522BE81C5600A89898 /* DNS-speed-checkerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA6835632BE81C5600A89898 /* Build configuration list for PBXNativeTarget "DNS-speed-checkerUITests" */;
+			buildPhases = (
+				BA68354F2BE81C5600A89898 /* Sources */,
+				BA6835502BE81C5600A89898 /* Frameworks */,
+				BA6835512BE81C5600A89898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA6835552BE81C5600A89898 /* PBXTargetDependency */,
+			);
+			name = "DNS-speed-checkerUITests";
+			productName = "DNS-speed-checkerUITests";
+			productReference = BA6835532BE81C5600A89898 /* DNS-speed-checkerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA6835302BE81C5500A89898 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					BA6835372BE81C5500A89898 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					BA6835482BE81C5600A89898 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = BA6835372BE81C5500A89898;
+					};
+					BA6835522BE81C5600A89898 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = BA6835372BE81C5500A89898;
+					};
+				};
+			};
+			buildConfigurationList = BA6835332BE81C5500A89898 /* Build configuration list for PBXProject "DNS-speed-checker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA68352F2BE81C5500A89898;
+			productRefGroup = BA6835392BE81C5500A89898 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA6835372BE81C5500A89898 /* DNS-speed-checker */,
+				BA6835482BE81C5600A89898 /* DNS-speed-checkerTests */,
+				BA6835522BE81C5600A89898 /* DNS-speed-checkerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA6835362BE81C5500A89898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6835442BE81C5600A89898 /* Preview Assets.xcassets in Resources */,
+				BA6835682BEC2CC200A89898 /* Credits.rtf in Resources */,
+				BA6835402BE81C5600A89898 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6835472BE81C5600A89898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6835512BE81C5600A89898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA6835342BE81C5500A89898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA68353E2BE81C5500A89898 /* ContentView.swift in Sources */,
+				BA6835A12BE81C5500A89898 /* DNSResolver.swift in Sources */,
+				BA6835B12BE81C5500A89898 /* Persistence.swift in Sources */,
+				BA68353C2BE81C5500A89898 /* DNS_speed_checkerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6835452BE81C5600A89898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA68354E2BE81C5600A89898 /* DNS_speed_checkerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA68354F2BE81C5600A89898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA68355A2BE81C5600A89898 /* DNS_speed_checkerUITestsLaunchTests.swift in Sources */,
+				BA6835582BE81C5600A89898 /* DNS_speed_checkerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA68354B2BE81C5600A89898 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA6835372BE81C5500A89898 /* DNS-speed-checker */;
+			targetProxy = BA68354A2BE81C5600A89898 /* PBXContainerItemProxy */;
+		};
+		BA6835552BE81C5600A89898 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA6835372BE81C5500A89898 /* DNS-speed-checker */;
+			targetProxy = BA6835542BE81C5600A89898 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BA68355B2BE81C5600A89898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA68355C2BE81C5600A89898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BA68355E2BE81C5600A89898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "DNS-speed-checker/DNS_speed_checker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DNS-speed-checker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DNS-speed-checker/Info.plist";
+				"INFOPLIST_FILE[sdk=*]" = "DNS-speed-checker/Info.plist";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kyllan.dev.DNS-speed-checker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA68355F2BE81C5600A89898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "DNS-speed-checker/DNS_speed_checker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DNS-speed-checker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DNS-speed-checker/Info.plist";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kyllan.dev.DNS-speed-checker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA6835612BE81C5600A89898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kyllan.dev.DNS-speed-checkerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DNS-speed-checker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DNS-speed-checker";
+			};
+			name = Debug;
+		};
+		BA6835622BE81C5600A89898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kyllan.dev.DNS-speed-checkerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DNS-speed-checker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DNS-speed-checker";
+			};
+			name = Release;
+		};
+		BA6835642BE81C5600A89898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kyllan.dev.DNS-speed-checkerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DNS-speed-checker";
+			};
+			name = Debug;
+		};
+		BA6835652BE81C5600A89898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kyllan.dev.DNS-speed-checkerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DNS-speed-checker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA6835332BE81C5500A89898 /* Build configuration list for PBXProject "DNS-speed-checker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA68355B2BE81C5600A89898 /* Debug */,
+				BA68355C2BE81C5600A89898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA68355D2BE81C5600A89898 /* Build configuration list for PBXNativeTarget "DNS-speed-checker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA68355E2BE81C5600A89898 /* Debug */,
+				BA68355F2BE81C5600A89898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA6835602BE81C5600A89898 /* Build configuration list for PBXNativeTarget "DNS-speed-checkerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6835612BE81C5600A89898 /* Debug */,
+				BA6835622BE81C5600A89898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA6835632BE81C5600A89898 /* Build configuration list for PBXNativeTarget "DNS-speed-checkerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6835642BE81C5600A89898 /* Debug */,
+				BA6835652BE81C5600A89898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA6835302BE81C5500A89898 /* Project object */;
+}
